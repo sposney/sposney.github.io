@@ -1,0 +1,62 @@
+body {
+	display: block;
+	position: relative;
+}
+
+span {
+	width: 100%;
+	display: block;
+	margin: 1em auto;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.hold {
+	padding: 3em;
+	font-family: 'Noto Serif', serif;
+	font-size: 24pt;
+}
+
+.hold_links {
+	padding-left: 0;
+
+}
+
+.hold_links li {
+	display: inline-block;
+	width: auto;
+	margin-right: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #366c95;
+	transition: color 150ms ease-in-out;
+}
+
+a:hover {
+	color: #333;
+}
+
+@media only screen and (max-device-width: 830px), (max-width: 830px)
+{
+	.hold_links li {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-device-width: 830px)
+{
+	.hold {
+		padding: 1em;
+		font-size: 36pt;
+	}
+
+	span {
+		margin: 2em auto;
+	}
+}
+
