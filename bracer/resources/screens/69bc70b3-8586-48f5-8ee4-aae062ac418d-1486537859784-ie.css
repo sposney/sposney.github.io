@@ -1,0 +1,32 @@
+#s-69bc70b3-8586-48f5-8ee4-aae062ac418d #s-Image_1 {
+  -ms-transform: rotate(0.0deg);
+}
+#s-69bc70b3-8586-48f5-8ee4-aae062ac418d #s-Button-blue {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #42ABE0;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #42ABE0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #42ABE0;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #42ABE0;
+  -ms-transform: rotate(0.0deg);
+}
+#s-69bc70b3-8586-48f5-8ee4-aae062ac418d #s-Image_2 {
+  -ms-transform: rotate(0.0deg);
+}
+#jim-container .ui-page {
+  overflow-x: hidden;
+}
+.non_jim_mobile #simulation {
+  overflow-x: hidden;
+}
+#s-69bc70b3-8586-48f5-8ee4-aae062ac418d > #loadMark {
+  width: 1px;
+  visibility: hidden;
+  display: none;
+}
