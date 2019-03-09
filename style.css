@@ -1,6 +1,7 @@
 body {
 	display: block;
-	position: relative;
+	position: relative;	
+	font-family: 'Noto Serif', serif;
 }
 
 span {
@@ -15,7 +16,6 @@ ul {
 
 .hold {
 	padding: 3em;
-	font-family: 'Noto Serif', serif;
 	font-size: 24pt;
 }
 
@@ -28,6 +28,22 @@ ul {
 	display: inline-block;
 	width: auto;
 	margin-right: 1em;
+}
+
+.about {
+	font-size: 18px;
+	padding: 5em;
+}
+
+.about_headshot {
+	display: block;
+	width: 400px;
+	float: left;
+}
+
+.about_details {
+	display: block;
+
 }
 
 a {
@@ -44,6 +60,12 @@ a:hover {
 {
 	.hold_links li {
 		width: 100%;
+	}
+
+	.about_headshot {
+		float: clear;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 }
